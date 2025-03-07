@@ -3,6 +3,19 @@
 ## **Project Overview**
 This repository contains the **end-to-end Snowflake data pipeline** for **PacificRetail**, which ingests, transforms, and loads data into structured layers for analytics and reporting.
 
+## **Tools & Technologies Used**
+- **Cloud Data Warehouse:** Snowflake
+- **Cloud Storage:** Azure Data Lake Storage (ADLS)
+- **Data Processing:** SQL (Snowflake SQL, ANSI SQL)
+- **ETL & Data Ingestion:** Snowflake `COPY INTO`, Streams, Tasks
+- **Change Data Capture (CDC):** Snowflake Streams
+- **Automation & Scheduling:** Snowflake Tasks & Stored Procedures
+- **Scripting & Debugging:** SQL & Python
+- **File Formats:** Parquet, JSON, CSV
+
+## **Project Overview**
+This repository contains the **end-to-end Snowflake data pipeline** for **PacificRetail**, which ingests, transforms, and loads data into structured layers for analytics and reporting.
+
 ### **Architecture Overview**
 The pipeline follows a **Bronze → Silver → Gold** structure:
 - **Bronze Layer:** Raw data ingestion from **Azure Data Lake Storage (ADLS)**.
