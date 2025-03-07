@@ -103,7 +103,7 @@ RUN scripts/Gold_Layer.sql;
 ---
 
 ## **Author**
-- **Project Owner:** [Your Name]
+- **Project Owner:** Vamsidhar
 - **Tech Stack:** Snowflake | Azure Data Lake | SQL | Python
 
 **Status:** Deployed & Operational
